@@ -1,5 +1,5 @@
 body {
-    background: url(gravel.jpg) no-repeat center center fixed;
+    background: url(../images/gravel.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100%;
     overflow: hidden;
@@ -104,4 +104,103 @@ div {
     position: relative;
     top: 20px;
     color: white;
+}
+
+.block1 {
+    position: relative;
+    top: 25px;
+    background-color: white;
+    height: 480px;
+    width: 960px;
+    padding: 20px 20px 20px 20px;
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+.block1p {
+    display: inline;
+    font-size: 22pt;
+    font-weight: bold;
+    color: #4aaaa5;
+}
+
+.robot {
+    height: 110px;
+    width: 270px;
+}
+
+.game {
+    height: 110px;
+    width: 270px;
+}
+
+.trivia {
+    position: relative;
+    top: 130px;
+    right: 600px;
+    height: 110px;
+    width: 270px;
+}
+
+.rutgers {
+    position: relative;
+    height: 110px;
+    width: 270px;
+    left: 300px;
+    top: 20px;
+}
+
+.rock {
+    position: relative;
+    height: 110px;
+    width: 270px;
+    top: 150px;
+    right: 300px;
+}
+
+.box1 {
+    position: absolute;
+    background-color: #4aaaa5;
+    height: 40px;
+    width: 270px;
+    top: 160px;
+    font-size: 20pt;
+}
+
+.box2 {
+    position: absolute;
+    background-color: #4aaaa5;
+    height: 40px;
+    width: 270px;
+    top: 160px;
+    left: 320px;
+    font-size: 20pt;
+}
+
+.box3 {
+    position: absolute;
+    background-color: #4aaaa5;
+    height: 40px;
+    width: 270px;
+    top: 290px;
+    font-size: 20pt;
+}
+
+.box4 {
+    position: absolute;
+    background-color: #4aaaa5;
+    height: 40px;
+    width: 270px;
+    left: 320px;
+    top: 290px;
+    font-size: 20pt;
+}
+
+.box5 {
+    position: absolute;
+    background-color: #4aaaa5;
+    height: 40px;
+    width: 270px;
+    top: 420px;
+    font-size: 20pt;
 }
