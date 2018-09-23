@@ -165,6 +165,10 @@ div {
     width: 270px;
     top: 160px;
     font-size: 20pt;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    color: white;
 }
 
 .box2 {
@@ -175,6 +179,10 @@ div {
     top: 160px;
     left: 320px;
     font-size: 20pt;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    color: white;
 }
 
 .box3 {
@@ -184,6 +192,10 @@ div {
     width: 270px;
     top: 290px;
     font-size: 20pt;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    color: white;
 }
 
 .box4 {
@@ -194,6 +206,10 @@ div {
     left: 320px;
     top: 290px;
     font-size: 20pt;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    color: white;
 }
 
 .box5 {
@@ -203,4 +219,59 @@ div {
     width: 270px;
     top: 420px;
     font-size: 20pt;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    color: white;
+}
+
+.block2 {
+    position: relative;
+    top: 25px;
+    background-color: white;
+    height: 480px;
+    width: 960px;
+    padding: 20px 20px 20px 20px;
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+.block2p {
+    display: inline;
+    font-size: 22pt;
+    font-weight: bold;
+    color: #4aaaa5;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    padding: 20px;
+}
+
+.fun {
+    color: black;
+}
+
+.morefun {
+    color: black;
+}
+
+.mostfun {
+    color: black
 }
